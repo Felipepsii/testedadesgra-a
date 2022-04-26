@@ -1,0 +1,29 @@
+.botoes{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 50px 50px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+button:hover{
+    background-color: #0c620f;
+    padding: 60px 60px;
+    font-size: 18px;
+    margin-top: -12px;
+
+    cursor: pointer;
+    border: 3px solid black;
+}

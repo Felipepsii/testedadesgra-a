@@ -1,0 +1,167 @@
+
+.loginLogo img{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    margin: 5px 8px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: var(--blue);
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+
+}
+
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.logo p{
+    align-items: center;
+    font-family: 'Square Peg', cursive;
+    font-size: 6em;
+}
+
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    filter: drop-shadow(0px 5px 5px var(--blue));
+
+}
+
+.logo_container img {
+
+    max-height: 150px;
+    display: table-cell;
+    display: flex;
+    margin: 0px 0;
+
+}
+
+/* Menu lateral */
+
+#check{
+    display: none;
+}
+
+#icone{
+    cursor: pointer;
+    padding: 8px 8px;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+}
+
+
+.barra{
+    color: white;
+
+    background-repeat: repeat;
+    background-color: var(--blue);
+    height:300px;
+    width: 200px;
+    position: absolute;
+    transition: all .2s linear;
+    top: -300px;
+    right: 13px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+header input{
+
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 18px;
+    transition: all .3s ease-out;
+}
+
+.barra p {
+    text-align: center;
+    font-size: 1em;
+   
+}
+
+
+.label-float{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.barra button{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+      
+.barra button::after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+      
+.barra button:hover::after {
+top: 0px;
+left: 0px;
+}
+
+
+
+
+#check:checked ~ .barra{
+    transform: translatey(380px);
+    filter: drop-shadow(5px 5px 10px #000);
+
+}
+
+.label-float{
+    right: auto;
+    left: auto;
+}
+
+
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+

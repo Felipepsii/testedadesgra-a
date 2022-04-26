@@ -1,0 +1,27 @@
+section.financeiro{
+
+    margin-top: 300px;
+    height: 300px;
+    text-align: center;
+}
+div.form{
+    margin: 10px;
+}
+table{
+
+    border-collapse: collapse; 
+    background: #FFFFF0;
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+tr{
+    border: 1px solid black; 
+    margin: 10px;
+}
+td{
+    border: 1px solid black;
+    margin: 10px;
+}

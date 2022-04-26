@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BDF3FF;
+
+}
+
+:root{
+    --blue: #3FBAFF;
+    --hblue: #096295;
+    /* --bg: #181818; */
+    --bg: #E5E5E5;
+    --strk: #b56767;
+    --hover: #000000;
+    /* --bh:white; */
+}
+
